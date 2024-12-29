@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
    <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -55,6 +56,57 @@
       <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
       <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
    </section>
+
+   <section class="carrossel">
+      <h2 class="carrossel_titulo">Novos Lançamentos</h2>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/ApacheKafka.svg"
+                  alt="capa do livro ApacheKafka da Alura Books"></div>
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/Liderança.svg"
+                  alt="capa do livro de liderança do Alura Books"></div>
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/Javascript.svg" alt="capa do livro de Javascript">
+            </div>
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/Guia Front-end.svg"
+                  alt="capa do livro do Guia de Front-end"></div>
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/Portugol.svg" alt="capa do livro de Portugol">
+            </div>
+
+            <div class="swiper-slide"><img src="_imagens_alura_mobile/ReactNative.svg" alt="capa do livro de React">
+            </div>
+
+         </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script>
+      const swiper = new Swiper('.swiper', {
+         spaceBetween: 10,
+         slidesPerView: 3,
+         pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+         },
+      });
+   </script>
+
 </body>
 
 </html>
