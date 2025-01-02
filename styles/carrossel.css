@@ -33,12 +33,12 @@
 
 .card_descrição {
     display: flex;
-    justify-content: space-between;
-    margin: 1em 0;
+    justify-content: space-between;   
+    margin-bottom: 0,5em;
 
 }
 
-.card_botoes {
+.card_botões {
     display: flex;
     justify-content: space-between;
 }
@@ -67,8 +67,17 @@
     font-weight: 400;
 }
 
+.botões_item {
+    margin: 0,5em 0;
+}
 
-
-
-
-
+.botao_ancora {
+    margin-top: 1em;
+    background-color: var(--laranja);
+    padding: 1em 2em;
+    text-decoration: none;
+    justify-items: center;
+    text-align: center;
+    color: var(--branco-principal);
+    font-weight: 700;
+}

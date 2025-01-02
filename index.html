@@ -124,7 +124,7 @@
    </div>
        
      <!--2°linha-->
-     <div class="card_botoes">
+     <div class="card_botões">
 
          <!--1°coluna-->
          <ul class="botões">
@@ -136,6 +136,49 @@
        <a href="#" class="botao_ancora">Saiba mais</a>
      </div>
 </div>
+
+<section class="carrossel">
+   <h2 class="carrossel_titulo">Mais Vendidos</h2>
+
+   <div>
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/Javascript.svg" alt="capa do livro de Java"></div>
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/Portugol.svg" alt="capa do livro de Portugol"></div>
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/ReactNative.svg" alt="capa do livro de React"></div>
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/Nodejs.svg" alt="capa do livro de Node"></div>
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/Tuning.svg" alt="capa do livro Turing"></div>
+
+         <div class="swiper-slide"><img src="_imagens_alura_mobile/Liderança.svg" alt="capa do livro de Liderança"></div>
+      </div>
+   </div>
+
+   <!-- If we need navigation buttons -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+   const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+         el: '.swiper-pagination',
+         type: 'bullets',
+      },
+   });
+</script>
+      </div>
+   </div>
+
+</section>
 </body>
 
 </html>
