@@ -97,7 +97,7 @@
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
    <script>
-      const swiper = new Swiper('.swiper', {
+      const Swiper = new Swiper('.swiper', {
          spaceBetween: 10,
          slidesPerView: 3,
          pagination: {
@@ -138,32 +138,40 @@
 </div>
 
 <section class="carrossel">
-   <h2 class="carrossel_titulo">Mais Vendidos</h2>
+    <h2 class=" carrossel_titulo"> MAIS VENDIDOS </h2>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
 
-   <div>
-      <div class="swiper-wrapper">
+    <div class="swiper">
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/Javascript.svg" alt="capa do livro de Java"></div>
+       <div class="swiper-wrapper">
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/Portugol.svg" alt="capa do livro de Portugol"></div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/Portugol.svg"
+                alt="capa do livro Portugol da Alura Books"></div>
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/ReactNative.svg" alt="capa do livro de React"></div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/ReactNative.svg"
+                alt="capa do livro de ReactNative do Alura Books"></div>
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/Nodejs.svg" alt="capa do livro de Node"></div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/Nodejs.svg" alt="capa do livro de Nodejs">
+          </div>
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/Tuning.svg" alt="capa do livro Turing"></div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/Liderança.svg"
+                alt="capa do livro de Liderança"></div>
 
-         <div class="swiper-slide"><img src="_imagens_alura_mobile/Liderança.svg" alt="capa do livro de Liderança"></div>
-      </div>
-   </div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/Guia Front-end.svg" alt="capa do livro Guia de Front-end">
+          </div>
 
-   <!-- If we need navigation buttons -->
-   <div class="swiper-button-prev"></div>
-   <div class="swiper-button-next"></div>
+          <div class="swiper-slide"><img src="_imagens_alura_mobile/ApacheKafka.svg" alt="capa do livro de ApacheKafka do Alurabooks">
+          </div>
+
+       </div>
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 
 </section>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
    const swiper = new Swiper('.swiper', {
@@ -175,10 +183,12 @@
       },
    });
 </script>
-      </div>
-   </div>
+  
 
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
