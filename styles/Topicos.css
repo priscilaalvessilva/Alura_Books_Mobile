@@ -1,14 +1,14 @@
 .topicos {
     background: var(--azul-degrade);
-    color: var(--branco-principal);
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 1em 0;
 }
 
 .topicos_titulo {
+    color: var(--branco-principal);
     font-size: 16px;
-    font-weight: 400;
-    padding: 1em;
+    font-weight: 300;
+    margin-bottom: 1em;
 }
 
 .topicos_lista {
@@ -17,11 +17,18 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1em;
+    
 }
 
 .topicos_item {
-    background: var(--laranja);
-    color: var(--branco-principal);
+    margin: 2em 0.5em;
+}
+
+.topicos_link {
+    text-decoration: none;
     padding: 1em;
+    background-color: var(--laranja);
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 700;
 }
