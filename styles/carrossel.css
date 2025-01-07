@@ -101,6 +101,11 @@
         display: block;
         top: 65%;
     }
+
+    .card {
+        width: 30%;
+        margin: auto; 
+    }
  }
     
 
