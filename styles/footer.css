@@ -4,9 +4,28 @@ hr {
 
 .rodape {
   background-color: var(--branco-principal);
-  padding: 1em;
+  padding: 1em 1em;
+  display: flex;
+  margin: 1em;
+  justify-content: space-between;
 }
 
 .rodape_titulo {
-  color: var(--azul-principal);
+  color: var(--preto);
+  font-size: 24px;
+  font-weight: 400;
 }
+
+.rodape_titulo_lista {
+  color: var(--cinza-medio);
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+}
+
+.lista_rodape_link {
+  color: var(--cinza-escura);
+  text-decoration: none;
+  padding: 0.5em 0.5em;
+}
+
