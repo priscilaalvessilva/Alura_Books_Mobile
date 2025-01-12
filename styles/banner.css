@@ -31,7 +31,7 @@
     text-align: center;
     color: var(--branco-principal);
     background: url(../_imagens_alura_mobile/Pesquisa_banner.svg) no-repeat;
-    background-position: 1em;
+    background-position: 2em;
 
 }
 
@@ -56,4 +56,19 @@
         background-position: 7em;
     }
     
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .banner_pesquisa {
+        width: 35%;
+    }
+
+    .banner_pesquisa::placeholder {
+        background-position: 10em;
+    }
+    
+    .banner {
+        padding: 6em 0;
+    }
 }

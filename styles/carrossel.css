@@ -108,4 +108,13 @@
     }
  }
     
+ @media screen and (min-width: 1728px) {
 
+    .carrossel_container {
+        display: flex;
+        margin: 0 20w 0 20w;
+    }
+     
+ }
+
+    
