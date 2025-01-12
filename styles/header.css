@@ -68,6 +68,11 @@
 }
 
 
+.container_texto {
+    display: none;
+}
+
+
 @media screen and (min-width: 1024px) {
 
 .container_titulo, 
@@ -120,16 +125,26 @@
 }
 
 
-@media screen and (max-width: 1728px) {
+@media screen and (min-width: 1728px) {
 
-    .container {
+    .container_link {
         display: flex;
-        text-align: center
+        text-align: center;
+        align-items: center;
+        color:var(---preto) ;
+        text-decoration:none ;
     }
 
-    .container_texto {;
-        color: var(---preto);
-        text-decoration: none;
+    .cabecalho {
+        padding: 0 2em;
     }
-    
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .container_texto {
+        display: block;
+    }
+
 }
