@@ -39,8 +39,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-   
-    .contato_descrição {
+
+    .contato {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,13 +50,13 @@
         font-size: 24px;
     }
 
-    .contato_descrição {
+    .contato_descricao {
         margin-right: 1em;
         width: 30%;
     }
 
-    .contato_e-mail {
-        width: 50%;
+    .contato_email {
+        width: 30%;
     }
-    
-}
+      
+    }
