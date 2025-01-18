@@ -22,6 +22,11 @@
     margin: .5em 0;
 }
 
+.carrossel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .card {
     background: var(--branco-principal);
@@ -112,10 +117,35 @@
 
     .carrossel_container {
         display: flex;
-        margin: 0 20w 0 20w;
-        background-color: var(--preto);
+        margin: 0 20vw 0 20vw;
+        align-items: center;
+        align-items: center;
     }
      
+    .swiper-pagination {
+        margin: 0;
+    }
+
+    .swiper {
+        width: 55%;
+    }
+
+    .descrição_titulo {
+        font-size: 36px;
+    }
+
+    .descrição_texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 1em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
  }
 
-    
+

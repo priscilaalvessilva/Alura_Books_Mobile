@@ -72,6 +72,16 @@
     display: none;
 }
 
+.container_botao:checked~.container_rotulo>.cabecalho_menu-hamburguer {
+    
+    background-image: url("../_imagens_alura_mobile/menu_black_24dp\ 1.svg");
+}
+
+.container_botao:checked ~ .container_rotulo {
+    
+    background: var(--azul-degrade);
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -122,6 +132,22 @@
     display: none;
 }
 
+.opções_botão:checked ~ .opções_rotulo> .opções_item {
+    background: var(--azul-degrade);
+    color: var(--branco-principal);
+}
+
+.opções_item {
+    padding: 2em 1em;
+}
+
+.lista-menu_item:hover {
+    background: var(--azul-degrade);
+}	
+
+.lista-menu_item:hover > .lista-menu_link {
+    color: var(--branco-principal);
+    text-decoration: none;
 }
 
 
